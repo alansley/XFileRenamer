@@ -11,4 +11,4 @@ Usage: python xfile-renamer.py [DIRECTORY] [MAX_FILENAME_CHARS] (Options)
       -r  Remove country codes and TOSEC codes [NOT COMPATIBLE WITH -s]
       -d  Dry-run - report what would happen but do not rename files (works with -s or -r just fine).
   
-NOTE: 'Next-Available' file numbering does not operate correctly in dry-run mode. When not dry-running if shortened filenames collide then files will be numbered as well as possible - as in, if there was an overlap it would work like this: foo.bar -> f~2.bar -> f~3.bar etc.
+NOTE: 'Next-Available' file numbering does not operate correctly in dry-run mode. When not dry-running if shortened filenames collide then files will be numbered as well as possible (~2, ~3 etc).
