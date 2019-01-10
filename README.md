@@ -1,6 +1,6 @@
 # XFileRenamer (Python 3)
 
-Shortens filenames to make them suitable for FTP-ing to an original Xbox (XFAT, 42 char limit). Or just shortens filenames and removes illegal characters.
+Shortens filenames and strips XFAT illegal chars to make files suitable for FTP-ing to an original Xbox (XFAT, 42 char limit).
 
 Can also optionally shorten or remove TOSEC / country codes from ROMs.
 
