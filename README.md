@@ -2,7 +2,7 @@
 
 Shortens filenames to make them suitable for FTP-ing to an original Xbox (XFAT file system, 42 char limit).
 
-Usage: python xfile-renamer.py <DIRECTORY> <MAX_FILENAME_CHARS> [OPTIONS]
+Usage: python xfile-renamer.py [DIRECTORY>] [MAX_FILENAME_CHARS] (Options)
 
 Optional flags:
     -s    Shorten country codes, e.g. '(Europe)' to '(E)' [NOT COMPATIBLE WITH -r]
