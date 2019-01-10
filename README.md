@@ -8,7 +8,7 @@ Optional flags:
 
     -s    Shorten country codes, e.g. '(Europe)' to '(E)' [NOT COMPATIBLE WITH -r]
     
-    -r    Remove  country codes [NOT COMPATIBLE WITH -s],")
+    -r    Remove country codes [NOT COMPATIBLE WITH -s]
     
     -d    Dry-run, e.g. report what would happen but do not rename files.
     
