@@ -12,3 +12,7 @@ Usage: python xfile-renamer.py [DIRECTORY] [MAX_FILENAME_CHARS] (Options)
       -d  Dry-run - report what would happen but do not rename files (works with -s or -r just fine).
   
 NOTE: 'Next-Available' file numbering (~2, ~3 etc) does not operate in dry-run mode.
+
+Example to DRY-RUN (i.e. test but do not perform) the shortening and then cut (if req'd) of all filenames in a given directory down to 42 chars:
+
+python xfile-renamer.py /home/roms/xbox/snes 42 -s -d
